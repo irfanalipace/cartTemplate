@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom shadows in your global CSS */
+.custom-shadow {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.custom-shadow-hover:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.globalSubHeading {
+    font-size: 23px;
+    color: #F85E9F;
+    font-weight: 700;
+}
+
+.globalParagraph {
+    font-size: 44px;
+    font-weight: 600;
+}
